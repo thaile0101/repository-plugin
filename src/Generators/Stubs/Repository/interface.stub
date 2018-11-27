@@ -1,0 +1,14 @@
+<?php
+
+$NAMESPACE$
+
+use Elidev\Repository\Contracts\RepositoryInterface;
+
+/**
+ * Interface $CLASS$RepositoryInterface
+ * @package $NAMESPACE$
+ */
+interface $CLASS$RepositoryInterface extends RepositoryInterface
+{
+    //
+}

@@ -1,0 +1,24 @@
+<?php
+
+$NAMESPACE$
+
+use Elidev\Repository\Eloquent\BaseRepository;
+use $INTERFACE$
+use $MODEL$;
+
+/**
+ * Class $CLASS$Repository
+ * @package $NAMESPACE$
+ */
+class $CLASS$Repository extends BaseRepository implements $CLASS$RepositoryInterface
+{
+    /**
+     * Specify Model class name
+     *
+     * @return string
+     */
+    public function model()
+    {
+        return $CLASS$::class;
+    }
+}

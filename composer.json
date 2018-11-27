@@ -1,0 +1,17 @@
+{
+    "name": "elidev/repository",
+    "authors": [
+        {
+            "name": "vulh",
+            "email": "vulh@elinext.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Elidev\\Repository\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4"
+    }
+}
