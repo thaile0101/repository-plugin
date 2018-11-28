@@ -2,7 +2,7 @@
 
 $NAMESPACE$
 
-use Elidev\Repository\Contracts\RepositoryInterface;
+use ThaiLe\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface $CLASS$RepositoryInterface

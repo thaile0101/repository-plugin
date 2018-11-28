@@ -1,8 +1,9 @@
-<?php namespace Elidev\Repository\Contracts;
+<?php 
+namespace ThaiLe\Repository\Contracts;
 
 /**
  * Interface CriteriaInterface
- * @package Elidev\Repository\Contracts
+ * @package ThaiLe\Repository\Contracts
  */
 interface CriteriaInterface
 {

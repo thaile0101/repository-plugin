@@ -2,7 +2,7 @@
 
 $NAMESPACE$
 
-use Elidev\Repository\Eloquent\BaseRepository;
+use ThaiLe\Repository\Eloquent\BaseRepository;
 use $INTERFACE$
 use $MODEL$;
 

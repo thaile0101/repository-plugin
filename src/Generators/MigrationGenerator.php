@@ -1,14 +1,14 @@
 <?php
 
-namespace Elidev\Repository\Generators;
+namespace ThaiLe\Repository\Generators;
 
-use Elidev\Repository\Generators\Migrations\NameParser;
-use Elidev\Repository\Generators\Migrations\SchemaParser;
+use ThaiLe\Repository\Generators\Migrations\NameParser;
+use ThaiLe\Repository\Generators\Migrations\SchemaParser;
 use Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 
 /**
  * Class MigrationGenerator
- * @package Elidev\Repository\Generators
+ * @package ThaiLe\Repository\Generators
  */
 class MigrationGenerator extends Generator
 {

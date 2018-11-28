@@ -1,11 +1,12 @@
-<?php namespace Elidev\Repository\Generators\Commands;
+<?php 
+namespace ThaiLe\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Elidev\Repository\Generators\RepositoryInterfaceGenerator;
-use Elidev\Repository\Generators\RepositoryEloquentGenerator;
-use Elidev\Repository\Generators\MigrationGenerator;
-use Elidev\Repository\Generators\ModelGenerator;
+use ThaiLe\Repository\Generators\RepositoryInterfaceGenerator;
+use ThaiLe\Repository\Generators\RepositoryEloquentGenerator;
+use ThaiLe\Repository\Generators\MigrationGenerator;
+use ThaiLe\Repository\Generators\ModelGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

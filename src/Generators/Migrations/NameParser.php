@@ -1,9 +1,9 @@
 <?php
-namespace Elidev\Repository\Generators\Migrations;
+namespace ThaiLe\Repository\Generators\Migrations;
 
 /**
  * Class NameParser
- * @package Elidev\Repository\Generators\Migrations
+ * @package ThaiLe\Repository\Generators\Migrations
  */
 class NameParser
 {

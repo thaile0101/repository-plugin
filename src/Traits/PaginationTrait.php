@@ -1,4 +1,5 @@
-<?php namespace Elidev\Repository\Traits;
+<?php 
+namespace ThaiLe\Repository\Traits;
 
 use Illuminate\Support\Facades\DB;
 

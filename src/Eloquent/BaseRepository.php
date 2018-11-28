@@ -1,20 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: vulh
- * Date: 2/16/17
- * Time: 6:07 PM
- */
 
-namespace Elidev\Repository\Eloquent;
+namespace ThaiLe\Repository\Eloquent;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Builder;
-use Elidev\Repository\Contracts\RepositoryInterface;
-use Elidev\Repository\Contracts\CriteriaInterface;
-use Elidev\Repository\Contracts\RepositoryCriteriaInterface;
+use ThaiLe\Repository\Contracts\RepositoryInterface;
+use ThaiLe\Repository\Contracts\CriteriaInterface;
+use ThaiLe\Repository\Contracts\RepositoryCriteriaInterface;
 use Illuminate\Container\Container as Application;
 
 abstract class BaseRepository implements RepositoryInterface, RepositoryCriteriaInterface

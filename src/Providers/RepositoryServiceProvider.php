@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Elidev\Repository\Providers;
+namespace ThaiLe\Repository\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Elidev\Repository\Generators\Commands\RepositoryCommand;
+use ThaiLe\Repository\Generators\Commands\RepositoryCommand;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -25,11 +25,11 @@ class RepositoryServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../../resources/config/repository.php' => config_path('elidev-repository.php'),
+            __DIR__ . '/../../resources/config/repository.php' => config_path('repository.php'),
             __DIR__ . '/../../resources/config/Repositories' => app_path('Repositories'),
         ]);
 
-        $this->mergeConfigFrom(__DIR__ . '/../../resources/config/repository.php', 'elidev-repository');
+        $this->mergeConfigFrom(__DIR__ . '/../../resources/config/repository.php', 'repository');
     }
 
     /**

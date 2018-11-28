@@ -1,9 +1,9 @@
 <?php
-namespace Elidev\Repository\Generators;
+namespace ThaiLe\Repository\Generators;
 
 /**
  * Class RepositoryInterfaceGenerator
- * @package Elidev\Repository\Generators
+ * @package ThaiLe\Repository\Generators
  */
 class RepositoryEloquentGenerator extends Generator
 {

@@ -1,14 +1,16 @@
 {
-    "name": "elidev/repository",
+    "name": "thaile/repository",
+    "description": "The Laravel Framework Plugin.",
+    "keywords": ["repository", "laravel"],
     "authors": [
         {
-            "name": "vulh",
-            "email": "vulh@elinext.com"
+            "name": "thaile",
+            "email": "thaile.dev01@gmail.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Elidev\\Repository\\": "src"
+            "ThaiLe\\Repository\\": "src"
         }
     },
     "require": {

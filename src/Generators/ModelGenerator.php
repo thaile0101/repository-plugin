@@ -1,12 +1,12 @@
 <?php
 
-namespace Elidev\Repository\Generators;
+namespace ThaiLe\Repository\Generators;
 
-use Elidev\Repository\Generators\Migrations\SchemaParser;
+use ThaiLe\Repository\Generators\Migrations\SchemaParser;
 
 /**
  * Class ModelGenerator
- * @package Elidev\Repository\Generators
+ * @package ThaiLe\Repository\Generators
  */
 class ModelGenerator extends Generator
 {

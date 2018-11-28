@@ -1,11 +1,11 @@
 <?php
 
-namespace Elidev\Repository\Generators;
+namespace ThaiLe\Repository\Generators;
 
 
 /**
  * Class Stub
- * @package Elidev\Repository\Generators
+ * @package ThaiLe\Repository\Generators
  */
 class Stub
 {

@@ -1,4 +1,5 @@
-<?php namespace Elidev\Repository\Contracts;
+<?php 
+namespace ThaiLe\Repository\Contracts;
 
 interface RepositoryInterface
 {

@@ -1,11 +1,11 @@
 <?php
-namespace Elidev\Repository\Generators\Migrations;
+namespace ThaiLe\Repository\Generators\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 
 /**
  * Class SchemaParser
- * @package Elidev\Repository\Generators\Migrations
+ * @package ThaiLe\Repository\Generators\Migrations
  */
 class SchemaParser implements Arrayable
 {

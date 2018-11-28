@@ -1,12 +1,12 @@
 <?php
-namespace Elidev\Repository\Contracts;
+namespace ThaiLe\Repository\Contracts;
 
 use Illuminate\Support\Collection;
 
 
 /**
  * Interface RepositoryCriteriaInterface
- * @package Elidev\Repository\Contracts
+ * @package ThaiLe\Repository\Contracts
  */
 interface RepositoryCriteriaInterface
 {

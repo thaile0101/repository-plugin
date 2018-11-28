@@ -1,6 +1,6 @@
 <?php
 
-namespace Elidev\Repository\Generators;
+namespace ThaiLe\Repository\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
