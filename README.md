@@ -1,8 +1,8 @@
-# Elidev Repository package
+# ThaiLe Repository package
 
 ## Overview
 
-The Elidev Repository is used to abstract the data layer, making our application more flexible to maintain
+The ThaiLe Repository is used to abstract the data layer, making our application more flexible to maintain
 
 You want to know a little more about the Repository pattern? [Read this great article](http://bit.ly/1IdmRNS).
 
@@ -20,21 +20,13 @@ You want to know a little more about the Repository pattern? [Read this great ar
 
 ### Composer
 
-This package is hosted private in Elinext's company GitLab: http://git.elidev.info/
-
 Update the composer.json file:
 
 ```
 {
     "require": {
-        "elidev/repository": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@git.elidev.info:vulh/laravel-repository-plugin.git"
-        }
-    ]
+        "thaile/repository": "dev-master"
+    }
 }
 ```
 
@@ -46,19 +38,19 @@ composer update
 
 ### Laravel
 
-In the config/app.php add `Elidev\Repository\Providers\RepositoryServiceProvider::class` to the end of the `provider` array
+In the config/app.php add `ThaiLe\Repository\Providers\RepositoryServiceProvider::class` to the end of the `provider` array
 
 Publish Configuration
 
 ```
-php artisan vendor:publish --provider="Elidev\Repository\Providers\RepositoryServiceProvider"
+php artisan vendor:publish --provider="ThaiLe\Repository\Providers\RepositoryServiceProvider"
 ```
 
 ## Methods
 
 ### Repository Interface
 
-Elidev\Repository\Contracts\RepositoryInterface
+ThaiLe\Repository\Contracts\RepositoryInterface
 
 - all($columns = array('*'))
 - paginate($limit = null, $columns = ['*'])
@@ -125,7 +117,7 @@ Create a repository
 
 namespace App\Repositories\Eloquents;
 
-use Elidev\Repository\Eloquent\BaseRepository;
+use ThaiLe\Repository\Eloquent\BaseRepository;
 use App\Book;
 use App\Repositories\Contracts\BookRepositoryInterface;
 
@@ -193,8 +185,8 @@ interface MyBookCriteriaInterface {}
 
 namespace App\Repositories\Eloquents\Criteria;
 
-use Elidev\Repository\Contracts\CriteriaInterface;
-use Elidev\Repository\Contracts\RepositoryInterface;
+use ThaiLe\Repository\Contracts\CriteriaInterface;
+use ThaiLe\Repository\Contracts\RepositoryInterface;
 use App\Repositories\Contracts\Criteria\MyBookCriteriaInterface;
 
 class MyBooksCriteria implements CriteriaInterface, MyBookCriteriaInterface
@@ -246,7 +238,7 @@ Create your repositories (Repository, RepositoryInterface, Model, Migration file
 
 ### Configuration
 
-All generator configurations are located in the config/elidev-repository.php file.
+All generator configurations are located in the config/repository.php file.
 
 ```
 'generator'  => [
